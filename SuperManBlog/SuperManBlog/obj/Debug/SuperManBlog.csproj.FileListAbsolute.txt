@@ -1,0 +1,5 @@
+D:\!SoftServe\test_proj\SuperManBlog\SuperManBlog\bin\SuperManBlog.dll
+D:\!SoftServe\test_proj\SuperManBlog\SuperManBlog\bin\SuperManBlog.pdb
+D:\!SoftServe\test_proj\SuperManBlog\SuperManBlog\obj\Debug\ResolveAssemblyReference.cache
+D:\!SoftServe\test_proj\SuperManBlog\SuperManBlog\obj\Debug\SuperManBlog.dll
+D:\!SoftServe\test_proj\SuperManBlog\SuperManBlog\obj\Debug\SuperManBlog.pdb

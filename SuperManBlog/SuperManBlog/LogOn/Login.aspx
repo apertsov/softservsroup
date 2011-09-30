@@ -16,7 +16,7 @@
     <form id="LogIn" runat="server">
     <div>
         <asp:Login ID="Enter" runat="server" DestinationPageUrl="~/About.aspx" 
-            LoginButtonText="Только для SuperMan" TitleText="Воойди" 
+            LoginButtonText="Только для SuperMan" TitleText="Войди" 
             UserNameLabelText="Name">
         </asp:Login>
     </div>

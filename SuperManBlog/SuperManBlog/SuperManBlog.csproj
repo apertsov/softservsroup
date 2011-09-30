@@ -329,13 +329,16 @@
     <Content Include="AddPost\tinymce\jscripts\tiny_mce\utils\validate.js" />
     <Content Include="LogOn\Login.aspx" />
     <Content Include="newThemes.aspx" />
+    <Content Include="ShowPost\ShowPost.aspx" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.4.1.js" />
     <Content Include="Scripts\jquery-1.4.1.min.js" />
-    <Content Include="SuperPosts.xml" />
+    <Content Include="XML files\SuperPosts.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="themespage.aspx" />
     <Content Include="user.aspx" />
     <Content Include="Web.config" />
@@ -344,6 +347,9 @@
     </Content>
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="XML files\SuperComments.xml">
+      <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
@@ -386,6 +392,13 @@
       <DependentUpon>newThemes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShowPost\ShowPost.aspx.cs">
+      <DependentUpon>ShowPost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowPost\ShowPost.aspx.designer.cs">
+      <DependentUpon>ShowPost.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

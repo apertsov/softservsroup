@@ -13,15 +13,6 @@ namespace AddPost {
     public partial class WebForm1 {
         
         /// <summary>
-        /// form1 элемент управления.
-        /// </summary>
-        /// <remarks>
-        /// Автоматически создаваемое поле.
-        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
-        
-        /// <summary>
         /// topic элемент управления.
         /// </summary>
         /// <remarks>
@@ -40,21 +31,21 @@ namespace AddPost {
         protected global::System.Web.UI.WebControls.TextBox txtNotes;
         
         /// <summary>
-        /// Button1 элемент управления.
+        /// btnSubmit элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Button btnSubmit;
         
         /// <summary>
-        /// Button2 элемент управления.
+        /// btnClear элемент управления.
         /// </summary>
         /// <remarks>
         /// Автоматически создаваемое поле.
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.Button btnClear;
     }
 }

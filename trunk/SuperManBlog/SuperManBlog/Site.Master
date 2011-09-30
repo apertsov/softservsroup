@@ -14,13 +14,13 @@
         <div class="header">
             <div class="title">
                 <h1>
-                    My ASP.NET Application
+                    SuperManBlog
                 </h1>
             </div>
             <div class="loginDisplay">
                 <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
                     <AnonymousTemplate>
-                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                        [ <a href="~/LogOn/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
                     </AnonymousTemplate>
                     <LoggedInTemplate>
                         Welcome <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
@@ -33,6 +33,7 @@
                     <Items>
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home"/>
                         <asp:MenuItem NavigateUrl="~/About.aspx" Text="About"/>
+                        <asp:MenuItem NavigateUrl="~/AddPost/AddPost.aspx" Text = "Add Post" />
                     </Items>
                 </asp:Menu>
             </div>

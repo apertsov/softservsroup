@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<posts>
+  <post id="6" topic="2131212">&lt;p&gt;ssaadsddadasd&lt;/p&gt;</post>
+  <post id="5" topic="12312">&lt;p&gt;sdadsdadasads&lt;/p&gt;</post>
+  <post id="4" topic="123">&lt;p&gt;dsadadsadsadads&lt;/p&gt;</post>
+  <post id="3" topic="Simple Post">&lt;p&gt;Simple text&lt;/p&gt;</post>
+  <post id="2" topic="23321231231">&lt;p&gt;saddsasadadadads&lt;/p&gt;</post>
+  <post id="1" topic="Перший пост">&lt;p&gt;&lt;strong&gt;Тут &lt;span style="text-decoration: line-through;"&gt;не &lt;/span&gt;&lt;/strong&gt;&lt;em&gt;знаходиться текст посту&lt;/em&gt;&lt;/p&gt;</post>
+</posts>

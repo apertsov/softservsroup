@@ -434,7 +434,9 @@
     <None Include="AddPost\tinymce\examples\media\sample.flv" />
     <None Include="AddPost\tinymce\examples\media\sample.ram" />
     <None Include="AddPost\tinymce\examples\media\sample.rm" />
-    <Content Include="AddPost\Web.config" />
+    <Content Include="AddPost\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="AddPost\Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

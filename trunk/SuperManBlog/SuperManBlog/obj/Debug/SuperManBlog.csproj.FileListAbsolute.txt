@@ -3,3 +3,8 @@ D:\!SoftServe\test_proj\SuperManBlog\SuperManBlog\bin\SuperManBlog.pdb
 D:\!SoftServe\test_proj\SuperManBlog\SuperManBlog\obj\Debug\ResolveAssemblyReference.cache
 D:\!SoftServe\test_proj\SuperManBlog\SuperManBlog\obj\Debug\SuperManBlog.dll
 D:\!SoftServe\test_proj\SuperManBlog\SuperManBlog\obj\Debug\SuperManBlog.pdb
+E:\SoftServ\PrimeProjecrt\SuperManBlog\SuperManBlog\bin\SuperManBlog.dll
+E:\SoftServ\PrimeProjecrt\SuperManBlog\SuperManBlog\bin\SuperManBlog.pdb
+E:\SoftServ\PrimeProjecrt\SuperManBlog\SuperManBlog\obj\Debug\ResolveAssemblyReference.cache
+E:\SoftServ\PrimeProjecrt\SuperManBlog\SuperManBlog\obj\Debug\SuperManBlog.dll
+E:\SoftServ\PrimeProjecrt\SuperManBlog\SuperManBlog\obj\Debug\SuperManBlog.pdb

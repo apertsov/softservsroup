@@ -26,4 +26,5 @@
         Welcome to SuperMans SuperBlog!
     </h2>
   <asp:Label runat="server" ID="post"></asp:Label>
+  <asp:Label runat="server" ID="add"></asp:Label>
 </asp:Content>

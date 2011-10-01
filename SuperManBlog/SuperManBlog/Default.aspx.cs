@@ -22,6 +22,8 @@ namespace SuperManBlog
                              "<a href = ShowPost/ShowPost.aspx?id=" + x.Attributes[0].Value + "><h3>" +
                              x.Attributes[1].Value + "</h3></a><br />" + "</div>";
             }
+            if (!User.IsInRole("Administrator")) add.Visible = false;
+            else { add.Visible = true; add.Text = "<p align = \"center\"><a href = AddPost/AddPost.aspx> AddPost </a></p>"; } 
         }
     }
 }

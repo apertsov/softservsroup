@@ -33,6 +33,9 @@ namespace SuperManBlog.ShowPost
                 {
                     comm.Text += "<br />" + x.Attributes[1].Value + "<br /><br />" + x.InnerText + "<hr />";
                 }
+            if (User.IsInRole("Administrator"))
+                delete.Visible = true;
+            else delete.Visible = false;
         }
 
         protected void send_Click(object sender, EventArgs e)
@@ -56,5 +59,36 @@ namespace SuperManBlog.ShowPost
            
             
         }
+
+        protected void delete_Click(object sender, EventArgs e)
+        {
+
+            XmlNode outer;
+            XmlDocument xml_doc = new XmlDocument();
+            xml_doc.XmlResolver = null;
+            xml_doc.Load(Server.MapPath("../XML files/SuperPosts.xml"));
+            string str = Request.QueryString["id"];
+            XmlNodeList items = xml_doc.GetElementsByTagName("post");
+            foreach (XmlNode x in items)
+                if (x.Attributes[0].Value.ToString() == str)
+                {
+                    outer = x.ParentNode;
+                    outer.RemoveChild(x);
+                    break;
+                }
+            xml_doc.Save(Server.MapPath("../XML files/SuperPosts.xml"));
+            xml_doc = new XmlDocument();
+            xml_doc.XmlResolver = null;
+            xml_doc.Load(Server.MapPath("../XML files/SuperComments.xml"));
+            items = xml_doc.GetElementsByTagName("comment");
+            for(int i = 0; i < items.Count; i++)
+                if (items[i].Attributes[0].Value.ToString() == str)
+                {
+                    outer = items[i].ParentNode;
+                    outer.RemoveChild(items[i]);
+                }
+            xml_doc.Save(Server.MapPath("../XML files/SuperComments.xml"));
+            Response.Redirect("~/Default.aspx");
+          }
     }
 }

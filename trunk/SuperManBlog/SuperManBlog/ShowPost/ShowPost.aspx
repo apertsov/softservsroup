@@ -51,5 +51,7 @@
             </table> 
         
     </div>
+    <asp:Button ID="delete" runat="server" Text="Delete this Post" 
+         onclick="delete_Click" />
     </asp:Content>
 

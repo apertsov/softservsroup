@@ -34,10 +34,12 @@ namespace SuperManBlog.ShowPost
                     comm.Text += "<br />" + x.Attributes[1].Value + "<br /><br />" + x.InnerText + "<hr />";
                 }
             if (User.IsInRole("Administrator"))
+                
                 delete.Visible = true;
             else delete.Visible = false;
+          
         }
-
+        
         protected void send_Click(object sender, EventArgs e)
         {
             
@@ -48,6 +50,7 @@ namespace SuperManBlog.ShowPost
             XmlElement newElem = xml_doc.CreateElement("comment");
 
             newElem.SetAttribute("id", Request.QueryString["id"]);
+            if (name.Text == "") name.Text = "Anonymous";
             newElem.SetAttribute("nickname", name.Text);
             newElem.InnerText = txtComment.Text;
 

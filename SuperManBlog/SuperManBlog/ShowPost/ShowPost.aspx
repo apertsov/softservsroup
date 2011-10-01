@@ -27,6 +27,12 @@
             clear:inherit;
         }
     </style>
+     <script type="text/javascript" src="../tinymce/jscripts/tiny_mce/tiny_mce.js"></script> 
+        <script type="text/javascript" language="javascript">
+            tinyMCE.init({
+                mode: "textareas"
+            }); 
+        </script>
 </asp:Content>
 
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
@@ -45,6 +51,5 @@
             </table> 
         
     </div>
-    <p align = "center"><a href = "../Default.aspx">Main Page</a></p>
-</asp:Content>
+    </asp:Content>
 

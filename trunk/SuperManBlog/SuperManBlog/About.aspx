@@ -5,9 +5,16 @@
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <h2>
-        About
+        About 
     </h2>
     <p>
-        Put content here.
-    </p>
+        Developed by:<br />
+         Кулієвич Артем<br />
+         Бєляєв Евген<br />
+         Горин Олег<br />
+         Собчук Павло<br />
+        </p>
+        <p>Responsible for project:<br />
+        Кулієвич Артем<br /></p>
+       
 </asp:Content>

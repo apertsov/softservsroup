@@ -7,7 +7,7 @@
             table {border-style:none; background:#ccc; margin: 0 auto;}
             p {font-size:14px;}
         </style>
-        <script type="text/javascript" src="tinymce/jscripts/tiny_mce/tiny_mce.js"></script> 
+        <script type="text/javascript" src="../tinymce/jscripts/tiny_mce/tiny_mce.js"></script> 
         <script type="text/javascript" language="javascript">
             tinyMCE.init({
                 mode: "textareas"

@@ -15,13 +15,23 @@ namespace SuperManBlog.ShowPost
             XmlDocument xml_doc = new XmlDocument();
             xml_doc.XmlResolver = null;
             xml_doc.Load(Server.MapPath("../XML files/SuperPosts.xml"));
-           string str = Request.QueryString["id"];
+            string str = Request.QueryString["id"];
             XmlNodeList items = xml_doc.GetElementsByTagName("post");
             foreach (XmlNode x in items)
                 if (x.Attributes[0].Value.ToString() == str) {
                     topic.Text = "<div id = \"wrapper\"><div id = \"head\"><h3>" + x.Attributes[1].Value + "</h3></div>";
                     text.Text = "<div id = \"text\">" + x.InnerText + "</div>";
                     break; 
+                }
+            xml_doc = new XmlDocument();
+            xml_doc.XmlResolver = null;
+            xml_doc.Load(Server.MapPath("../XML files/SuperComments.xml"));
+            items = xml_doc.GetElementsByTagName("comment");
+            comm.Text = "";
+            foreach (XmlNode x in items)
+                if (x.Attributes[0].Value.ToString() == str)
+                {
+                    comm.Text += "<br />" + x.Attributes[1].Value + "<br /><br />" + x.InnerText + "<hr />";
                 }
         }
 
@@ -41,20 +51,9 @@ namespace SuperManBlog.ShowPost
             xml_doc.DocumentElement.InsertAfter(newElem, newNode);
 
             xml_doc.Save(Server.MapPath("../XML files/SuperComments.xml"));
-           
 
-            xml_doc = new XmlDocument();
-            xml_doc.XmlResolver = null;
-            xml_doc.Load(Server.MapPath("../XML files/SuperComments.xml"));
-            
-            string str = Request.QueryString["id"];
-            XmlNodeList items = xml_doc.GetElementsByTagName("comment");
-            comm.Text = "";
-            foreach (XmlNode x in items)
-                if (x.Attributes[0].Value.ToString() == str)
-                {
-                    comm.Text += "<br />" + x.Attributes[1].Value +"<br /><br />" + x.InnerText + "<hr />";
-                }
+            Response.Redirect("../ShowPost/ShowPost.aspx?id=" + Request.QueryString["id"]);
+           
             
         }
     }

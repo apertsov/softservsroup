@@ -2,16 +2,11 @@
     CodeBehind="Default.aspx.cs" Inherits="SuperManBlog._Default" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <h2>
         Welcome to SuperMans SuperBlog!
     </h2>
-    <p>
-        
-    </p>
-    <p>
-       
-
-    </p>
+  <asp:Label runat="server" ID="post"></asp:Label>
 </asp:Content>

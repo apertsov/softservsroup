@@ -1,25 +1,26 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="SuperManBlog.LogOn.Login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="SuperManBlog.LogOn.Login"  MasterPageFile="~/Site.master"%>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
     <title></title>
     <style type="text/css">
         #LogIn
         {
             margin-top: 15px;
         }
+        #loginform
+        {
+            width:231px;
+            margin: 0 auto;
+            background:#ccf;
+            padding:10px;
+        }
     </style>
-</head>
-<body>
-    <form id="LogIn" runat="server">
-    <div>
-        <asp:Login ID="Enter" runat="server" DestinationPageUrl="~/About.aspx" 
+</asp:Content>
+<asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
+    <div id="loginform">
+        <asp:Login ID="Enter" runat="server" DestinationPageUrl="~/Default.aspx" 
             LoginButtonText="Только для SuperMan" TitleText="Войди" 
             UserNameLabelText="Name">
         </asp:Login>
     </div>
-    </form>
-</body>
-</html>
+</asp:Content>

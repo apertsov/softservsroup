@@ -1,13 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <posts>
-  <post id="9" topic="SkSirius">&lt;p&gt;greedisgood&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;</post>
-  <post id="8" topic="Sample Post">&lt;p&gt;SkSirius&lt;/p&gt;</post>
-  <post id="7" topic="dddassa">&lt;p&gt;asdsadasdsasfafsfasasfdasdasadasdasdasas&lt;/p&gt;</post>
-  <post id="6" topic="2131212">&lt;p&gt;ssaadsddadasd&lt;/p&gt;</post>
-  <post id="5" topic="12312">&lt;p&gt;sdadsdadasads&lt;/p&gt;</post>
-  <post id="4" topic="123">&lt;p&gt;dsadadsadsadads&lt;/p&gt;</post>
-  <post id="3" topic="Simple Post">&lt;p&gt;Simple text&lt;/p&gt;</post>
-  <post id="2" topic="23321231231">&lt;p&gt;saddsasadadadads&lt;/p&gt;</post>
-  <post id="1" topic="Перший пост">&lt;p&gt;&lt;strong&gt;Тут &lt;span style="text-decoration: line-through;"&gt;не &lt;/span&gt;&lt;/strong&gt;&lt;em&gt;знаходиться текст посту&lt;/em&gt;&lt;/p&gt;</post>
+  <post id="2" topic="Second Post">&lt;p&gt;;lkdfj;dlskjf;lksjf;alkdsjf;lkadsf&lt;/p&gt;
+&lt;p&gt;sdf;lkjdsa;lfkjasd;lkfj;ladksjf&lt;/p&gt;
+&lt;p&gt;dfkladsjf;lkadjsf;l&lt;/p&gt;
+&lt;p&gt;lkdfjads;lkfjdas;lkfjds;lkfjdsl;kfjdsl;kfjdsaf&lt;/p&gt;
+&lt;p&gt;fsdfdslkfsdafdasf&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;asdfdsfadsdsafads&lt;/li&gt;
+&lt;li&gt;asdfsadfdsafdsaf&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol&gt;
+&lt;li&gt;adsfasdafadsfdsfdasfadfadsf&lt;/li&gt;
+&lt;li&gt;asdfadsfdasf&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;asdf&lt;span style="text-decoration: line-through;"&gt;adfadsfadsf&lt;/span&gt;&lt;/p&gt;</post>
+  <post id="1" topic="Post Number One">&lt;p&gt;Hi! This is my first simple &lt;strong&gt;post&lt;/strong&gt;!&lt;/p&gt;</post>
 </posts>

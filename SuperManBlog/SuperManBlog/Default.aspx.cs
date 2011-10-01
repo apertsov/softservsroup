@@ -12,7 +12,16 @@ namespace SuperManBlog
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           
+            XmlDocument xml_doc = new XmlDocument();
+            xml_doc.XmlResolver = null;
+            xml_doc.Load(Server.MapPath("XML files/SuperPosts.xml"));
+            XmlNodeList items = xml_doc.GetElementsByTagName("post");
+            foreach (XmlNode x in items)
+            {
+                post.Text += "<div id = \"displaypost\">" +
+                             "<a href = ShowPost/ShowPost.aspx?id=" + x.Attributes[0].Value + "><h3>" +
+                             x.Attributes[1].Value + "</h3></a><br />" + "</div>";
+            }
         }
     }
 }

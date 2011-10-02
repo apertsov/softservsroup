@@ -8,3 +8,8 @@ E:\SoftServ\PrimeProjecrt\SuperManBlog\SuperManBlog\bin\SuperManBlog.pdb
 E:\SoftServ\PrimeProjecrt\SuperManBlog\SuperManBlog\obj\Debug\ResolveAssemblyReference.cache
 E:\SoftServ\PrimeProjecrt\SuperManBlog\SuperManBlog\obj\Debug\SuperManBlog.dll
 E:\SoftServ\PrimeProjecrt\SuperManBlog\SuperManBlog\obj\Debug\SuperManBlog.pdb
+D:\.net\.netProject\GProject1\SuperManBlog\SuperManBlog\bin\SuperManBlog.dll
+D:\.net\.netProject\GProject1\SuperManBlog\SuperManBlog\bin\SuperManBlog.pdb
+D:\.net\.netProject\GProject1\SuperManBlog\SuperManBlog\obj\Debug\ResolveAssemblyReference.cache
+D:\.net\.netProject\GProject1\SuperManBlog\SuperManBlog\obj\Debug\SuperManBlog.dll
+D:\.net\.netProject\GProject1\SuperManBlog\SuperManBlog\obj\Debug\SuperManBlog.pdb

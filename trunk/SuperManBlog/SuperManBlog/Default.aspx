@@ -9,6 +9,15 @@
         margin: 10px auto;
         background:#ccccff;
         text-align: center;
+        padding:10px;
+    }
+    #displayposttext 
+    {
+        background:#ffffff;
+        text-align: left;
+        overflow:hidden;
+        height:150px;
+        padding:10px;
     }
     a:link
     {
